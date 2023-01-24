@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biker-Zone</title>
+    <!-- Bootstrap css file link -->
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <!-- style css link -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <!-- Font Awesome link -->
+    <script
+      src="https://kit.fontawesome.com/dae2cadf48.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main class="container-lg">
+      <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand fw-bolder fs-1" href="#">Biker Zone</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">News</a>
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link active" href="#">Contact</a>
+                </li>
+              </ul>
+              <button class="btn btn-outline-danger" type="submit">
+                Search
+              </button>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Carousel -->
+        <section>
+          <div
+            id="carouselExample"
+            class="carousel slide bg-danger bg-opacity-10 p-5 rounded"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div
+                    class="col-12 col-md-6 d-flex justify-content-center align-items-center"
+                  >
+                    <div>
+                      <h1>KTM 890 Adventure</h1>
+                      <p>
+                        It is the king of the adventure bike segment. It is
+                        designed to ride across the world with roads.
+                      </p>
+                      <button class="btn btn-danger">Purchase</button>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 mt-2">
+                    <img
+                      src="./images/bike-1.png"
+                      class="d-block w-100"
+                      alt="bike"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div
+                    class="col-12 col-md-6 d-flex justify-content-center align-items-center"
+                  >
+                    <div>
+                      <h1>Harley Davidson Pan America</h1>
+                      <p>
+                        The Pan America maxes out at 227kph (141mph). It is 4kph
+                        less than the less powerful top speed.
+                      </p>
+                      <button class="btn btn-danger">Purchase</button>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 mt-2">
+                    <img
+                      src="./images/bike-2.png"
+                      class="d-block w-100"
+                      alt="bike"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div
+                    class="col-12 col-md-6 d-flex justify-content-center align-items-center"
+                  >
+                    <div>
+                      <h1>Ride-on R15 V4 with Smile</h1>
+                      <p>
+                        It would not be a good pick for long drives as it has an
+                        aggressive riding so it would not fit.
+                      </p>
+                      <button class="btn btn-danger">Purchase</button>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 mt-2">
+                    <img
+                      src="./images/bike-3.png"
+                      class="d-block w-100"
+                      alt="bike"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon bz-light-red"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon bz-light-red"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+      </header>
+      <!-- main -->
+      <main>
+        <!-- Featured Bikes In This Year section -->
+        <section class="container-fluid text-center mt-5 mb-5">
+          <h1>Featured Bikes In This Year</h1>
+          <p class="text-danger">Best bike collection</p>
+          <hr class="w-25 mx-auto border-danger" />
+          <div
+            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5 mt-0 mt-md-3 px-5"
+          >
+            <div class="col">
+              <img
+                class="w-100"
+                src="./images/feature-bike.jpg"
+                alt="feature-bike"
+              />
+            </div>
+            <div class="col">
+              <img
+                class="w-75"
+                src="./images/feature-bike.jpg"
+                alt="feature-bike"
+              />
+            </div>
+            <div class="col">
+              <img
+                class="w-100"
+                src="./images/feature-bike.jpg"
+                alt="feature-bike"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- Latest News section -->
+        <section class="bg-info bg-opacity-25 rounded pb-5 pt-2 pt-md-3 px-3">
+          <h1 class="text-center mt-5">Latest News</h1>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 rounded-4">
+                <img
+                  src="./images/bike-1.png"
+                  class="card-img-top"
+                  alt="bike"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">KTM 890 Adventure</h5>
+                  <p class="card-text">
+                    It is the king of the adventure bike segment. It is designed
+                    to ride across the world with roads.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <button class="btn btn-outline-danger">Purchase</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 rounded-4">
+                <img
+                  src="./images/bike-2.png"
+                  class="card-img-top"
+                  alt="bike"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Harley Davidson Pan America</h5>
+                  <p class="card-text">
+                    The Pan America maxes out at 227kph (141mph). It is 4kph
+                    less than the less powerful top speed.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <button class="btn btn-outline-danger">Purchase</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 rounded-4">
+                <img
+                  src="./images/bike-3.png"
+                  class="card-img-top"
+                  alt="bike"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Ride-on R15 V4</h5>
+                  <p class="card-text">
+                    It would not be a good pick for long drives as it has an
+                    aggressive riding so it would not fit.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <button class="btn btn-outline-danger">Purchase</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Happy Clients says section -->
+        <section class="mt-5">
+          <h1 class="text-center py-5">
+            Happy <span class="text-warning">Clients says</span>
+          </h1>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 text-center">
+                <img
+                  src="./images/user-1.png"
+                  class="w-25 mx-auto mt-3 card-img-top"
+                  alt="user"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    That feeling of pure joy after a long ride, something every
+                    motorcyclist can relate to. The reason we feel so happy is
+                    pretty simple.
+                  </p>
+                  <p class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </p>
+                  <h5 class="text-primary">Micheal Jackson</h5>
+                  <p>Banker, Boston</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 text-center">
+                <img
+                  src="./images/user-2.png"
+                  class="w-25 mx-auto mt-3 card-img-top"
+                  alt="user"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    They operate just outside their comfort zone, which is where
+                    learning happens. They just do it so often, they get more
+                    comfortable with being uncomfortable.
+                  </p>
+                  <p class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </p>
+                  <h5 class="text-primary">Surabaya Roy</h5>
+                  <p>Doctor, London</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 text-center">
+                <img
+                  src="./images/user-3.png"
+                  class="w-25 mx-auto mt-3 card-img-top"
+                  alt="user"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    When ride, I get a spike in petrochemicals such as serotonin
+                    and dopamine that relieve pain and improve mood.
+                  </p>
+                  <p class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </p>
+                  <h5 class="text-primary">Alex Biswas</h5>
+                  <p>Engineer, Dhaka</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Frequently Asked Questions section -->
+        <section
+          class="mt-5 mb-3 mb-md-5 py-1 px-3 bg-secondary-subtle rounded"
+        >
+          <h1 class="my-5 text-center">
+            Frequently Asked <span class="text-warning">Questions</span>
+            <div class="row row-cols-1 row-cols-md-2 mt-5 g-4">
+              <div class="col text-center">
+                <img class="w-50" src="./images/faq.png" alt="faq" />
+              </div>
+              <div class="col">
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        What are the most important things people should know
+                        about riding a bike?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOne"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        Follow the traffic rules and maintain the driving
+                        license.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        Will not the people follow the riding rules ?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        Then Accident is increasing day by day.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        Is the helmet using old or new?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseThree"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        Not Old. One Helmet using 6 or 7 months.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </h1>
+        </section>
+      </main>
+    </main>
+
+    <!-- footer -->
+    <footer
+      class="p-5 d-flex justify-content-around align-items-center bg-black text-white flex-column flex-md-row"
+    >
+      <section>
+        <div class="d-flex gap-4">
+          <p>Download Now</p>
+          <p>License</p>
+        </div>
+        <div class="d-flex gap-3">
+          <p>About</p>
+          <p>Features</p>
+          <p>Pricing</p>
+          <p>Careers</p>
+          <p>Help</p>
+          <p>Privacy</p>
+        </div>
+        <div>
+          <p>© 2023 bike. All rights reserved</p>
+        </div>
+      </section>
+      <section
+        class="d-flex justify-content-around align-items-center flex-column"
+      >
+        <h1>Get the App</h1>
+        <img class="w-50 py-3" src="./images/ios.png" alt="ios" />
+        <img class="w-50" src="./images/android.png" alt="android" />
+      </section>
+    </footer>
+    <!-- Bootstrap js file link -->
+    <script src="./bootstrap.min.js"></script>
+  </body>
+</html>
